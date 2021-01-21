@@ -15,16 +15,25 @@
           >
         </b-col>
       </b-row>
+      <b-row><b-col></b-col></b-row>
+
+      <b-row>
+        <b-col>
+          <MyVuetable class="mt-5"></MyVuetable>
+        </b-col>
+      </b-row>
     </b-container>
   </div>
 </template>
 
 <script>
 import RegisterEmployee from "../components/RegisterEmployee";
+import MyVuetable from "../components/UserTable.vue";
 export default {
   name: "ViewEmployee",
   components: {
     RegisterEmployee,
+    MyVuetable,
   },
   methods: {
     registerEmployee() {
