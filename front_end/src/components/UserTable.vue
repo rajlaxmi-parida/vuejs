@@ -27,12 +27,10 @@
         @vuetable:pagination-data="onPaginationData"
       >
         <div slot="gender-slot" slot-scope="props">
-          <span v-if="props.rowData.gender === 'M'" class="ui teal label"
-            ><i class="large man icon"></i>Male</span
+          <span v-if="props.rowData.gender === 'M'" class=""
+            ><i class=""></i>Male</span
           >
-          <span v-else class="ui pink label"
-            ><i class="large woman icon"></i>Female</span
-          >
+          <span v-else class=""><i class=""></i>Female</span>
         </div>
       </vuetable>
     </div>
